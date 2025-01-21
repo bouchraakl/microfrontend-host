@@ -5,7 +5,7 @@ const ModuleFederationPlugin =
 module.exports = {
   entry: "./src/index.js",
   output: {
-    publicPath: "http://localhost:3000/",
+    publicPath: "https://bouchraakl.github.io/microfrontend-host/",
   },
   mode: "development",
   devServer: {
