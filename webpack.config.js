@@ -38,7 +38,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "host",
       remotes: {
-        remoteApp: "remoteApp@http://localhost:3001/remoteEntry.js",
+        remoteApp: "remoteApp@https://bouchraakl.github.io/microfrontend-remote/remoteEntry.js",
       },
       shared: {
         react: { singleton: true, eager: true, requiredVersion: "18.2.0" },
